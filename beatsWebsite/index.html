@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeatUp</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            /* Resetting margin and padiing or CSS*/
+            margin: 0px;
+            padding: 0px;
+            background-image: url(images/1.jpg);
+            background-size: cover;
+        }
+        .left{
+            /* border: 2px solid red; */
+            display: inline-block;
+            /* To keep the element in left side we use position absolute and the give top and left values  */
+            position: absolute;
+            top: 25px;
+            left: 125px;
+        }
+        #logoName{
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top:25px;
+            left: 185px;
+        }
+        #logoName h2{
+            color: #03A9F4;;
+        }
+        .left img{
+            width: 50px;
+        }
+        .mid{
+            /* border: 2px solid rgb(88, 16, 255); */
+            display: block;
+            width: 550px;
+            margin: 115px 125px;
+            padding:10px;
+            color: white;
+        }
+        .mid h1{
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 40px;
+        }
+        .right{
+            /* border: 2px solid rgb(8, 252, 101); */
+            display: inline-block;
+            /* To keep the element in left side we use position absolute and the give top and right values  */
+            position: absolute;
+            width: 500px;
+            top: 25px;
+            right: 130px;
+        }
+        .nav{
+            display: inline-block;
+        }
+        .nav li{
+            display: inline-block;
+        }
+        .nav li a{
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            margin: 10px;
+            padding: 2px; 
+        }
+        .nav li a:hover{
+            text-decoration: underline;
+            color:  #03A9F4;
+        }
+        .btn{
+            font-weight: bold;
+            font-size: 20px;
+            background-color: #3f51b5;
+            border: 0px;
+            border-radius: 6px;
+            margin: 2px;
+            padding: 8px;
+            width: 100px;
+        }
+        .btn:hover{
+            background-color:  #132cb6;
+        }
+    </style>
+</head>
+<body>
+    <header class="head">
+        <div class="left">
+            <img src="images/logo5.png"> 
+        </div>
+        <div id="logoName">
+            <h2>BeatUp</h2> 
+        </div>
+        <div class="mid">
+            <h1>A Place To Buy Beats From The Best Producers</h1>
+        </div>
+        <div class="right">
+            <ul class="nav">
+                <li> <a href="#"> Buy Beats</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Sign Up</a></li>
+                <li><a href="#"><button class="btn">Login</button></a></li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* NAvigation */
+
+/* Home */
+#home{
+
+}
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+#services .box{
+
+}

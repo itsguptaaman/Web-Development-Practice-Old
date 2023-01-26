@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Coders</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        
+        .top{
+            /* border: 2px solid red; */
+            border-radius: 5px;
+            display: inline-block;
+            width: 100%;
+            height: 60px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: #F8F8F8;
+        }
+        .top img{
+            height: 60px;
+            margin-left: 100px;
+        }
+        .navbar{
+            /* border: 2px solid blue;      */
+            display: inline-block;
+            width: 55%;
+            height: 60px;
+            position: absolute;
+            top: 0px;
+            right: 60px;
+            padding: 0px;
+        }
+        .navbar ul{
+            display: inline-block;
+        }
+        .navbar ul li{
+            margin-left: 40px;
+            display: inline-block;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 22px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .navbar ul li a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+         
+        .midhead{
+            /* border: 2px solid green; */
+            display:inline-block;
+            position: absolute;
+            top: 100px;
+            left: 0;
+            width: 100%;
+        }
+        .midhead h1{
+            text-align: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 35px;
+        }
+        .midimg{
+            /* border: 2px solid yellow; */
+            display: inline-block;
+            position: relative;
+            top: 190px;
+            left: 100px;
+        }
+        .midimg img{
+            width: 700px;
+        }
+        .midright{
+            /* border: 2px solid pink; */
+            display: inline-block;
+            position: absolute;
+            top: 180px;
+            right: 222px;
+        }
+        .midright h3{
+            font-size: 20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 2px;
+        }
+        .btn{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 20px;
+            background-color: royalblue;
+            border: none;
+            border-radius: 6px;
+            width: 120px;
+            height: 30px;
+            padding: 2px;
+        }
+        .btn:hover{
+            background-color: blue;
+        }
+        .form{
+            /* border: 1px solid ; */
+            display: inline-block;
+            position: absolute;
+            top: 470px;
+            right: 300px;
+            margin: 20px;
+            padding: 20px;
+        }
+        #name{
+            margin: 5px;
+            padding: 7px;
+        }
+        #passwd{
+            margin: 6px;
+            padding: 7px;
+        }
+        #sub{
+            width: 245px ;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 5px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <header class="head"> -->
+        <div class="container">
+            <div class="top">
+                <img src="/Logo/onlinelogomaker-121020-1345-1107.png" alt="Logo not found">
+                <div class="navbar">
+                    <ul>
+                        <li><a href="#">Lessons</a></li>
+                        <li><a href="#">Upload Custom Code</a></li>
+                        <li><a href="#">Test</a> </li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="midhead">
+                <h1>Online Typing Practice for Programmers</h1>
+            </div>
+            <div class="midimg">
+                <img src="/Logo/5.jpg" alt="Img not found">
+            </div>
+            <div class="midright">
+                <h3> Source code is availble in many languages.</h3>
+                <h3> C, C++, Python, Java, ...</h3>
+                <h3> Increase your typing speed and accuracy.</h3>
+                <h3> Different keyboard layouts available.</h3>
+                <h3> No drills — type through open source code.</h3>
+                <button class="btn" value="Start">Start Now</button>
+            </div>
+            <div>
+                <form action="noaction" class="form">
+                    <div>
+                    <Label for="name">Username :</Label>
+                    <input type="text" id="name" placeholder="Enter Username">
+                </div>
+                <div>
+                    <Label for="passwd">Password :</Label>
+                    <input type="password" id="passwd" placeholder="Enter Password">
+                </div>
+                <input type="submit" value="Submit" id="sub">
+                </form>
+            </div>
+            
+        </div>
+<!-- </header> -->
+</body>
+</html>
